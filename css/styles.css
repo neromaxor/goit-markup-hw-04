@@ -344,21 +344,18 @@
   .section-one { background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(/images/people-office\ 1.jpg);
     max-width: 1440px;
-    background-position: center;
-    margin: auto;
-     background-size: cover;
-     background-repeat: no-repeat;
+        background-position: center;
+        margin: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #2E2F42;;
 
     }
 
   
-  .section-one {
-      background-color: #2E2F42;
-      height: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-    
+  .section-one {padding: 188px 0;
+    text-align: center;
+ 
   }
 
   button {
@@ -517,7 +514,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
   .jpg-photo {
       border: #E7E9FC;
-      background-color: #FFF; }
+      background-color: #FFF;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); }
  
 
   .text-portfolio {
@@ -551,6 +549,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .ptext{
     position: relative;
         overflow: hidden;
+        
     }
 
   .overlay{
